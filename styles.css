@@ -1,0 +1,49 @@
+body{
+    background: rgb(187, 187, 187);
+    z-index: -1;
+}
+h1{
+    text-align: center;
+    background: white;
+}
+.flex-container{
+    width: 600px;
+    height: 500px;
+    top: 50%;
+    right: 50%;
+    margin-top: 50px;
+    margin-left: 450px;
+    border: none;
+    padding: 2px;
+    background: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+}
+.title{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    flex:1;
+}
+.date{
+    border: none;
+}
+.img{
+    width: 100%;
+    height: 70%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+.description{
+    width: 100%;
+    height: 20%;
+    border: none;
+    padding: 2px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+}
